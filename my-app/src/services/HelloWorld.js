@@ -1,7 +1,7 @@
 const HelloWorld = {
     async getHelloWorld() {
       const message = 'Hello World!';
-      return message;
+      return { data: message };
     },
   };
   
