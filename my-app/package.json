@@ -1,7 +1,13 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "description": "Escapism Project React Application",
+  "author": "Vasiliki Ioannidou, Marcus Schumann, Sert Akpinar, Andreas Schaaf, Yejay Demirkan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aktuelle-Webtechnologien-Escapism/Deliverable-2-Hello-World-Aufgabe"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
