@@ -18,4 +18,10 @@ Euer Projekt sollte entweder in GitHub oder GitLab eingecheckt sein. Achtet bitt
 Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch.
 
 Anmerkung:
+<<<<<<< HEAD
+Deliverable 3: Build it! ist ein Teil des Repositories für Deliverable 2.
+=======
 Deliverable 3: Build it! ist Teil des Repositories für Deliverable 2.
+Repository wird bald neu strukturiert.
+test
+>>>>>>> eab35115773b62176d310708a4d0d0e546722888
