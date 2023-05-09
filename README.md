@@ -19,3 +19,4 @@ Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch.
 
 Anmerkung:
 Deliverable 3: Build it! ist Teil des Repositories für Deliverable 2.
+Repository wird bald neu strukturiert.
