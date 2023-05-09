@@ -16,3 +16,6 @@ Euer Projekt sollte entweder in GitHub oder GitLab eingecheckt sein. Achtet bitt
 
 
 Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch.
+
+Anmerkung:
+Deliverable 3: Build it! ist Teil des Repositories für Deliverable 2.
