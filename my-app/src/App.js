@@ -20,12 +20,14 @@
  * THE SOFTWARE.
  */
 
-import MainPage from './components/MainPage';
+// import MainPage from './components/MainPage';
+import ToDoList from './components/ToDoList';
 
 function App() {
 	return (
 		<div className='App'>
-			<MainPage />
+			{/* <MainPage /> */}
+			<ToDoList />
 		</div>
 	);
 }
