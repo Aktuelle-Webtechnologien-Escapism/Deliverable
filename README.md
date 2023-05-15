@@ -1,27 +1,25 @@
-# Deliverable-2-Hello-World-Aufgabe
+# Deliverable 4: Geht's noch?!Aufgabe
 
-Im zweiten Abschnitt - Code - ist es eure Aufgabe, im Team zu entscheiden, mit welchem Framework ihr entwickeln möchtet. Es stehen euch dabei alle verfügbaren Web-Technologien zur Verfügung. Ihr seid frei in der Entscheidung, ob ihr ein euch bekanntes Framework wählt, oder den Mut habt, in etwas unbekanntes einzutauchen. 
-
-Keine Sorge. Die Applikation ist am Schluss nicht der einzige Key-Faktor zur Bewertung. Eine offene Fehlerkultur ist euch bei mir sicher.
-
-
+Im vierten Abschnitt - Test - ist es eure Aufgabe, im Team zu entscheiden, mit welchem Test-Frameworks ihr arbeiten möchtet. Auch hier gibt es keine Einschränkungen in eurer Wahl. Die Tests müssen automatisiert statt finden und im Build-Prozess integriert werden. Ein erfolgreicher Build erfordert einen erfolgreichen Durchlauf aller Tests. 
 
 ## Was sind die Komponenten, die ich erwarte? ##
 
-Hello World! - Applikation in der Technologie eurer Wahl. Ein Front-End (für User-Facing-Technologien wie Vue.js, react, angular, etc.) mit einer "Main"-Page und ein Service/Data-Provider, der euch intern in der Applikation mit dem "Hello World!" versorgt. **ODER**  solltet ihr lieber ein Back-End entwickeln wollen, dann bitte ein Endpunkt, der ein "Hello World!" per JSON ausgibt und intern einen Service/Data-Provider hat.
-Euer Projekt sollte entweder in GitHub oder GitLab eingecheckt sein. Achtet bitte auf ein korrektes Projektsetup mit einer ordentlichen Struktur und einer **gepflegten** Package-Manager-Datei (z.B. package.json). Nutzt eine geeignete Software-Lizenz (z.B. MIT).
+Mindestens 5 sinnvolle Unit-Tests oder UI-Tests für euren Code
+Integration der Tests in euren Build-Prozess
 
 ## Was wird zur Abgabe erwartet? ##
 
+Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch. Achtet wie immer auf eine sinnvolle Projektstruktur.
 
+# Deliverable 5: Das erste ReleaseAufgabe
 
-Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch.
+Im fünften Abschnitt - Release - ist es eure Aufgabe, ein erstes Release eurer App im Repo zu erstellen. Ihr solltet euch bei euren Releases um die Namenskonvention Gedanken machen. Das aktuellste Release sollte immer "latest" heißen. 
 
-Anmerkung:
-<<<<<<< HEAD
-Deliverable 3: Build it! ist ein Teil des Repositories für Deliverable 2.
-=======
-Deliverable 3: Build it! ist Teil des Repositories für Deliverable 2.
-Repository wird bald neu strukturiert.
-test
->>>>>>> eab35115773b62176d310708a4d0d0e546722888
+## Was sind die Komponenten, die ich erwarte? ##
+
+Erstellt zwei Releases eurer App. Wobei das aktuellste immer mit "latest" gekennzeichnet sein sollte.
+
+## Was wird zur Abgabe erwartet? ##
+
+Ladet euer fertiges "latest"-Release als Archiv hoch.
+Ladet einen Screenshot mit dem Verlauf eurer Releases hoch.
