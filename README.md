@@ -11,6 +11,8 @@ Integration der Tests in euren Build-Prozess
 
 Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch. Achtet wie immer auf eine sinnvolle Projektstruktur.
 
+=> npm install + npm test um die Tests zu starten
+
 # Deliverable 5: Das erste ReleaseAufgabe
 
 Im fünften Abschnitt - Release - ist es eure Aufgabe, ein erstes Release eurer App im Repo zu erstellen. Ihr solltet euch bei euren Releases um die Namenskonvention Gedanken machen. Das aktuellste Release sollte immer "latest" heißen. 
