@@ -13,9 +13,9 @@ Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch. Achtet wie im
 
 ---
 
-# Welcome to my-app!
+# Willkommen zu "my-app"!
 
-To get started, please follow the instructions below:
+Um loszulegen, befolgen Sie bitte die folgenden Anweisungen:
 
 ## Installation
 
