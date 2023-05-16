@@ -42,3 +42,18 @@ Dieser Befehl startet den Entwicklungsserver und macht Ihre Anwendung für die A
 Öffnen Sie Ihren Webbrowser und besuchen Sie http://localhost:3000, um die laufende Anwendung anzuzeigen
 
 Haben Sie weitere Fragen oder benötigen Sie Unterstützung, stehen wir Ihnen gerne zur Verfügung.
+
+---
+
+# Deliverable 5: Das erste ReleaseAufgabe
+
+Im fünften Abschnitt - Release - ist es eure Aufgabe, ein erstes Release eurer App im Repo zu erstellen. Ihr solltet euch bei euren Releases um die Namenskonvention Gedanken machen. Das aktuellste Release sollte immer "latest" heißen. 
+
+## Was sind die Komponenten, die ich erwarte? ##
+ 
+Erstellt zwei Releases eurer App. Wobei das aktuellste immer mit "latest" gekennzeichnet sein sollte.
+
+## Was wird zur Abgabe erwartet? ##
+
+1. Ladet euer fertiges "latest"-Release als Archiv hoch.
+2. Ladet einen Screenshot mit dem Verlauf eurer Releases hoch.
