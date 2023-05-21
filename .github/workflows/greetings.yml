@@ -1,7 +1,11 @@
-name: Greetings
+name: Greetings and deploy
 
-on: [pull_request_target, issues]
-
+on: 
+  pull_request_target:
+  issues:
+  push:
+    branches:
+      - main
 jobs:
   greeting:
     runs-on: ubuntu-latest
@@ -14,3 +18,26 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "You just created your first issue."
         pr-message: "You just created your first pull request"
+        
+deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run tests
+      run: npm test
+    
+    - name: Deploy to Vercel
+      uses: amondnet/vercel-action@v20
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
