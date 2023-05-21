@@ -39,7 +39,7 @@ jobs:
       run: cd ./my-app && npm ci
       
     - name: Run tests
-      run: npm test
+      run: cd ./my-app && npm test
     
     - name: Deploy to Vercel
       uses: amondnet/vercel-action@v20
