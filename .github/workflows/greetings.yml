@@ -1,4 +1,4 @@
-name: Greetings and deploy
+name: Greetings and Deploy
 
 on: 
   pull_request_target:
@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   greeting:
     runs-on: ubuntu-latest
@@ -18,8 +19,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "You just created your first issue."
         pr-message: "You just created your first pull request"
-        
-deploy:
+
+  deploy:
     runs-on: ubuntu-latest
     
     steps:
