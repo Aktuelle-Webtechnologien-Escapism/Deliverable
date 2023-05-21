@@ -35,11 +35,8 @@ jobs:
     - name: Print current working directory
       run: pwd
 
-    - name: Change directory to my-app
-      run: cd ./my-app
-  
-    - name: Install dependencies
-      run: npm install
+    - name: Change directory to my-app and install dependencies
+      run: cd ./my-app && npm ci
       
     - name: Run tests
       run: npm test
