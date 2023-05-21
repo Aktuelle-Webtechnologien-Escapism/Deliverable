@@ -31,6 +31,9 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 16
+        
+    - name: Print current working directory
+      run: pwd
 
     - name: Change directory to my-app
       run: cd ./Deliverable-2-Hello-World-Aufgabe/my-app
