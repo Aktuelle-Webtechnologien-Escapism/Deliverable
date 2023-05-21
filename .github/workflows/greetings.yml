@@ -33,8 +33,7 @@ jobs:
         node-version: 16
 
     - name: Install dependencies
-      run: npm ci --prefix    
-      
+      run: npm ci --prefix ./Deliverable-2-Hello-World-Aufgabe/my-app
     - name: Run tests
       run: npm test
     
