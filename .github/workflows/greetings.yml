@@ -38,7 +38,7 @@ jobs:
     - name: Change directory to my-app and install dependencies
       run: cd ./my-app && npm ci
       
-    - name: Run tests
+    - name: Change directory and run tests
       run: cd ./my-app && npm test
     
     - name: Deploy to Vercel
