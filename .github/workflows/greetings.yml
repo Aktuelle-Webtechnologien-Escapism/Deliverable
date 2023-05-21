@@ -33,10 +33,7 @@ jobs:
         node-version: 16
 
     - name: Install dependencies
-        run: |
-          cd ../../
-          cd my-app
-          npm ci
+        run: cd ${{ github.workspace }}/my-app && npm install
     
     - name: Run tests
       run: npm test
