@@ -33,7 +33,10 @@ jobs:
         node-version: 16
 
     - name: Install dependencies
-      run: npm install --prefix C:/Users/vioan/OneDrive/Desktop/Escapism_Deliverable-2-Hello-World-Aufgabe/Deliverable-2-Hello-World-Aufgabe/Deliverable-2-Hello-World-Aufgabe/my-app
+        run: |
+          cd ../../
+          cd my-app
+          npm ci
     
     - name: Run tests
       run: npm test
