@@ -1,18 +1,18 @@
-# Deliverable 4: Geht's noch?!Aufgabe
+# Deliverable 6: Jetzt aber wirklich "Hello World!"
 
-Im vierten Abschnitt - Test - ist es eure Aufgabe, im Team zu entscheiden, mit welchem Test-Frameworks ihr arbeiten möchtet. Auch hier gibt es keine Einschränkungen in eurer Wahl. Die Tests müssen automatisiert statt finden und im Build-Prozess integriert werden. Ein erfolgreicher Build erfordert einen erfolgreichen Durchlauf aller Tests. 
+Im sechsten Abschnitt - Deploy - ist es eure Aufgabe, eure Pipeline/Action zu erweitern, so dass nach einem Push im Main eure App in einer externen Plattform deployt. Nutzt hierfür z.B. Vercel. Alternativ gehen auch andere Plattformen, wie AWS/Azure.
 
-## Was sind die Komponenten, die ich erwarte? ##
+## Was sind die Komponenten, die ich erwarte?
 
-Mindestens 5 sinnvolle Unit-Tests oder UI-Tests für euren Code
-Integration der Tests in euren Build-Prozess
+Erweiterte Pipeline/Action, die den Main-Branch automatisiert in Vercel nach den erfolgreichen Tests deployt
 
-## Was wird zur Abgabe erwartet? ##
+## Was wird zur Abgabe erwartet?
 
-Ladet bitte das aus dem Repository heruntergeladene ZIP-File hoch. Achtet wie immer auf eine sinnvolle Projektstruktur.
+Ladet das aktuelle Archiv aus eurem Repository inkl. der angepassten YAML hoch.
+
+## Die aktualisierte YAML Datei befindet sich in .github\workflows
 
 ---
-
 # Willkommen zu "my-app"!
 
 Um loszulegen, befolgen Sie bitte die folgenden Anweisungen:
@@ -44,16 +44,3 @@ Dieser Befehl startet den Entwicklungsserver und macht Ihre Anwendung für die A
 Haben Sie weitere Fragen oder benötigen Sie Unterstützung, stehen wir Ihnen gerne zur Verfügung.
 
 ---
-
-# Deliverable 5: Das erste ReleaseAufgabe
-
-Im fünften Abschnitt - Release - ist es eure Aufgabe, ein erstes Release eurer App im Repo zu erstellen. Ihr solltet euch bei euren Releases um die Namenskonvention Gedanken machen. Das aktuellste Release sollte immer "latest" heißen. 
-
-## Was sind die Komponenten, die ich erwarte? ##
- 
-Erstellt zwei Releases eurer App. Wobei das aktuellste immer mit "latest" gekennzeichnet sein sollte.
-
-## Was wird zur Abgabe erwartet? ##
-
-1. Ladet euer fertiges "latest"-Release als Archiv hoch.
-2. Ladet einen Screenshot mit dem Verlauf eurer Releases hoch.
