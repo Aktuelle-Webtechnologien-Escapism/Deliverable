@@ -41,5 +41,5 @@ jobs:
     - name: Change directory and run tests
       run: cd ./my-app && npm test
     
-    - name: Deploy to Vercel 
+    - name: Change directory & Deploy to Vercel 
       run: cd ./my-app && npx vercel --token ${{ secrets.VERCEL_TOKEN }} --yes
