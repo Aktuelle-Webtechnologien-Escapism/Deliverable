@@ -31,7 +31,7 @@ Dieser Befehl lädt alle in der Datei "package.json" definierten Pakete herunter
 
 ## Tests ausführen
 
-Um die Tests für "my-app" auszuführen, verwenden Sie den Befehl "npm test" im Terminal.
+Um die Test´s für "my-app" auszuführen, verwenden Sie den Befehl "npm test" im Terminal.
 Dieser Befehl startet den Test-Runner, der alle definierten Tests ausführt und die Testergebnisse liefert.
 
 ## Anwendung starten
