@@ -42,4 +42,4 @@ jobs:
       run: cd ./my-app && npm test
     
     - name: Deploy to Vercel
-      run: npx vercel --token ${{ secrets.VERCEL_TOKEN }} --yes
+      run: cd ./my-app && npx vercel --token ${{ secrets.VERCEL_TOKEN }} --yes
