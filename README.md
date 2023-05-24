@@ -13,16 +13,16 @@ Ladet das aktuelle Archiv aus eurem Repository inkl. der angepassten YAML hoch.
 ## Die aktualisierte YAML Datei befindet sich in .github\workflows
 
 ---
-# Willkommen zu "my-app"!
+# Willkommen zu Escapism!
 
 Um loszulegen, befolgen Sie bitte die folgenden Anweisungen:
 
 ## Installation
 
 1. Klonen oder laden Sie dieses Repository auf Ihren lokalen Rechner herunter.
-2. Öffnen Sie Ihr Terminal und navigieren Sie zum Ordner "my-app".
+2. Öffnen Sie Ihr Terminal und navigieren Sie zum Ordner "deliverable".
 
-cd my-app
+cd deliverable
 
 ## Dependencies installieren
 
@@ -31,12 +31,12 @@ Dieser Befehl lädt alle in der Datei "package.json" definierten Pakete herunter
 
 ## Tests ausführen
 
-Um die Test´s für "my-app" auszuführen, verwenden Sie den Befehl "npm test" im Terminal.
+Um die Test´s für "deliverable" auszuführen, verwenden Sie den Befehl "npm test" im Terminal.
 Dieser Befehl startet den Test-Runner, der alle definierten Tests ausführt und die Testergebnisse liefert.
 
 ## Anwendung starten
 
-Wenn Sie die "my-app"-Anwendung starten möchten, verwenden Sie den Befehl "npm start" im Terminal
+Wenn Sie die "deliverable"-Anwendung starten möchten, verwenden Sie den Befehl "npm start" im Terminal
 
 Dieser Befehl startet den Entwicklungsserver und macht Ihre Anwendung für die Ansicht verfügbar.
 Öffnen Sie Ihren Webbrowser und besuchen Sie http://localhost:3000, um die laufende Anwendung anzuzeigen
