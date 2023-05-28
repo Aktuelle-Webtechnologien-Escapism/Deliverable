@@ -22,8 +22,13 @@
 
 
 import React from 'react';
+import Sentry from "./sentry";
 import ReactDOM from 'react-dom/client';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+    <Sentry.ErrorBoundary fallback="An error has occurred.">
+      <App />
+    </Sentry.ErrorBoundary>
+  );

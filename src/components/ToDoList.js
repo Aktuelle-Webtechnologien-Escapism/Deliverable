@@ -33,6 +33,7 @@ function ToDoList() {
           <li key={index}>
             {task}
             <button onClick={() => handleDeleteTask(index)}>Delete</button>
+            {/* return <button onClick={() => methodDoesNotExist()}>Break the world</button>; */}
           </li>
         ))}
       </ul>
