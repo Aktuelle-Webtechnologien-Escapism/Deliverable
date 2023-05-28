@@ -60,4 +60,4 @@ jobs:
       run: npm install -g artillery
 
     - name: Run Load Test
-      run: artillery run test.yaml   # Replace with the filename of your Artillery configuration file
+      run: cd .github/workflows && artillery run test.yaml   # Replace with the filename of your Artillery configuration file
