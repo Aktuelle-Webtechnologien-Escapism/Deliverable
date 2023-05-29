@@ -30,16 +30,15 @@ Sentry.init({
   dsn: "https://74b1b4ccb33e471cb4e38d8edca06515@o4505256071004160.ingest.sentry.io/4505263003729920",
   integrations: [
     new Sentry.BrowserTracing({
-      // Set `tracePropagationTargets` to control for which URLs distributed tracing should be enabled
-      tracePropagationTargets: ["localhost", /^https:\/\/yourserver\.io\/api/],
+      tracePropagationTargets: ["localhost"],
     }),
     new Sentry.Replay(),
   ],
   // Performance Monitoring
   tracesSampleRate: 1.0, // Capture 100% of the transactions, reduce in production!
   // Session Replay
-  replaysSessionSampleRate: 0.1, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
-  replaysOnErrorSampleRate: 1.0, // If you're not already sampling the entire session, change the sample rate to 100% when sampling sessions where errors occur.
+  replaysSessionSampleRate: 1.0, // Sample rate at 100% while in development.
+  replaysOnErrorSampleRate: 1.0, // Sample rate to 100% when sampling sessions where errors occur.
 });
 
 const container = document.getElementById("root");
