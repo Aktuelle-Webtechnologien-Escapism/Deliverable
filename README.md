@@ -1,16 +1,16 @@
-# Deliverable 6: Jetzt aber wirklich "Hello World!"
+# Deliverable 7: Was läuft da draußen?Aufgabe
 
-Im sechsten Abschnitt - Deploy - ist es eure Aufgabe, eure Pipeline/Action zu erweitern, so dass nach einem Push im Main eure App in einer externen Plattform deployt. Nutzt hierfür z.B. Vercel. Alternativ gehen auch andere Plattformen, wie AWS/Azure.
+Im letzten Abschnitt - Monitor - ist es eure Aufgabe, eure Applikation zu erweitern, so dass es euch möglich ist, in einem verteilten Cloud-System aussagekräftige Informationen über die Anwendung zu erhalten. Was heißt das im Detail? Nehmen wir das Beispiel Web-Applikation. Wie erhaltet ihr die Infos, dass innerhalb eures Codes Fehler sind? Wo stürzt die Applikation bei 10.000 Aufrufen am häufigsten ab und wie kommt ihr an den StackTrace? Dafür gibt es Monitoring Tools, die euch unterstützen. Werft mal einen Blick auf sentry.io. Das ist nicht der einzige Vertreter. Euch steht es also wieder frei aus der Vielfalt im Web zu wählen. 
 
 ## Was sind die Komponenten, die ich erwarte?
 
-Erweiterte Pipeline/Action, die den Main-Branch automatisiert in Vercel nach den erfolgreichen Tests deployt
+Erweiterte Applikation um ein Monitoring Tool mit welchem ihr Daten eurer Applikation erfasst. Versucht alle Fehler abzufangen, die auftreten können.
 
 ## Was wird zur Abgabe erwartet?
 
-Ladet das aktuelle Archiv aus eurem Repository inkl. der angepassten YAML hoch.
+Ladet das aktuelle Archiv aus eurem Repository hoch. 
 
-## Die aktualisierte YAML Datei befindet sich in .github\workflows
+## Die aktualisierte YAML Datei befindet sich in .github\workflows - die index.js wurde mit sentry ergänzt.
 
 ---
 # Willkommen zu Escapism!
