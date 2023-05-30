@@ -30,7 +30,7 @@ Sentry.init({
   dsn: "https://74b1b4ccb33e471cb4e38d8edca06515@o4505256071004160.ingest.sentry.io/4505263003729920",
   integrations: [
     new Sentry.BrowserTracing({
-      tracePropagationTargets: ["localhost"],
+      tracePropagationTargets: ["127.0.0.1"],
     }),
     new Sentry.Replay(),
   ],

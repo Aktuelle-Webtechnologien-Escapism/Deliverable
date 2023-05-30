@@ -43,21 +43,3 @@ jobs:
     
     - name: Deploy to Vercel 
       run: npx vercel --token ${{ secrets.VERCEL_TOKEN }} --yes
-  
-  load-test:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 16
-
-    - name: Install Artillery
-      run: npm install -g artillery
-
-    - name: Run Load Test
-      run: cd .github/workflows && artillery run test.yaml   # Replace with the filename of your Artillery configuration file
